@@ -1,0 +1,27 @@
+{
+  "name": "demotime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "tap --no-coverage  --no-esm"
+  },
+  "dependencies": {
+    "fastify": "3.0.0-rc.3",
+    "fastify-blipp": "2.3.1",
+    "fastify-loader": "2.3.7",
+    "point-of-view": "4.13.0",
+    "procore-sdk-client": "1.0.6",
+    "request-promise": "4.2.6"
+  },
+  "devDependencies": {
+    "tap": "^14.10.2",
+    "nodemon": "^2.0.1"
+  },
+  "keywords": [],
+  "eslintConfig": {
+    "sourceType": "script"
+  }
+}
