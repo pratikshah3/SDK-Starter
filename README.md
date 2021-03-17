@@ -1,23 +1,16 @@
-# fastify-starter
+# SDK Starter Kit
 
-A starter template for creating an HTTP Fastify server with JavaScript. It includes example routes that demonstrate some of the basic features of Fastify. It also comes with unit tests powered by [tap](https://node-tap.org).
-
-Codesandbox currently does not support custom eslint overrides; thus, `/* eslint strict: "off" */` is included at the top of each file to ignore the `strict` warning. If you use this template outside of Codesandbox, the eslint configuration within `package.json` will properly set the `sourceType`, which means you can remove these comments as no warnings will be produced.
-
-Learn more about fastify by reading our [documentation](https://fastify.io)
+1. copy .env.example as .env
+2. update the CLIENT_ID and CLIENT_SECRET
 
 # Generate a user token 
+1. Generate a user token in Postman 
+2. Copy the user token 
+3. Replace the users.js and rfis.js where ``` const token = "" ``` with the new token value 
 
-# Update your package credentials 
+# Check your API results
 
+1. navigate to  ``` url/api/projects/rfi && url/api/company/8484/users  ```
+2. you should see results for all rfis
+3. replace the company or project respectively in the users or rfis files
 
-1.create an .npmrc file
-2. add the following information
-
-```bash
- 
-@pratikshah3:registry=https://npm.fury.io/pratikshah3/
-//npm-proxy.fury.io/pratikshah3/:_authToken=
-
-```
-3. get an private registry authtoken
