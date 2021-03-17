@@ -9,7 +9,7 @@ server.register(require("fastify-loader"), {
 
 server.register(blipp);
 
-server.listen().then(() => {
+server.listen(9090).then(() => {
   server.blipp();
   console.log("fastify server is running on the sandbox environment");
 });

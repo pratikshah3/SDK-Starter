@@ -9,12 +9,15 @@
     "test": "tap --no-coverage  --no-esm"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "fastify": "3.0.0-rc.3",
     "fastify-blipp": "2.3.1",
+    "fastify-env": "^2.1.0",
     "fastify-loader": "2.3.7",
     "point-of-view": "4.13.0",
-    "procore-sdk-client": "1.0.6",
-    "request-promise": "4.2.6"
+    "procore-sdk-client": "1.0.7",
+    "request-promise": "4.2.6",
+    "upgrade": "^1.1.0"
   },
   "devDependencies": {
     "tap": "^14.10.2",
