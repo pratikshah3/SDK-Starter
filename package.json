@@ -4,6 +4,7 @@
   "description": "Simple Server Using SDK",
   "main": "src/server.js",
   "scripts": {
+    "postinstall": "npm i procore-sdk-client-1.0.0.tgz",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "tap --no-coverage  --no-esm"
@@ -15,7 +16,7 @@
     "fastify-env": "^2.1.0",
     "fastify-loader": "2.3.7",
     "point-of-view": "4.13.0",
-    "procore-sdk-client": ">=1.0.0",
+    "procore-sdk-client": "file:procore-sdk-client-1.0.0.tgz",
     "request-promise": "4.2.6",
     "upgrade": "^1.1.0"
   },
