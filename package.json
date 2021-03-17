@@ -4,7 +4,7 @@
   "description": "Simple Server Using SDK",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js",
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "tap --no-coverage  --no-esm"
   },
