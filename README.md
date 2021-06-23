@@ -1,16 +1,12 @@
 # SDK Starter Kit
 
 1. copy .env.example as .env
-2. update the CLIENT_ID and CLIENT_SECRET
+2. update your app CLIENT_ID & CLIENT_SECRET 
+3. Add user TOKEN  ( you can generate a token using the Demo Engineering Postman Collection )
 
-# Generate a user token 
-1. Generate a user token in Postman 
-2. Copy the user token 
-3. Replace the users.js and rfis.js where ``` const token = "" ``` with the new token value 
+# To Test 
 
-# Check your API results
-
-1. navigate to  ``` url/api/projects/rfi && url/api/company/8484/users  ```
-2. you should see results for all rfis
-3. replace the company or project respectively in the users or rfis files
+1. Goto Browser 
+2. With a company that you have access to, navigate to. https://localhost:9090/api/company/:company_id/projects  
+3. You should see all projects listed for the company 
 
